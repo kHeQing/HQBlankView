@@ -17,3 +17,6 @@
         HQBlankView.hide(fromView: self.view)
     }
 ```
+
+![](https://github.com/kHeQing/HQBlankView/blob/master/01.png)
+![](https://github.com/kHeQing/HQBlankView/blob/master/02.png)
