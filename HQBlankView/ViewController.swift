@@ -18,8 +18,13 @@ class ViewController: UIViewController {
     @IBAction func showBlankView(_ sender: UIButton) {
         
         HQBlankView.show(view, imgStr: "noTest", title: "咱无考试记录") {
-            HQBlankView.hide(fromView: self.view)
+            self.hideBlankView()
         }
+    }
+    
+    fileprivate func hideBlankView() {
+        
+        HQBlankView.hide(fromView: self.view)
     }
 }
 
